@@ -37,16 +37,16 @@
 }
 
 .container__section a{
+    background-color: hsl(0, 0%, 95%);
+    border: 2px  hsl(0, 0%, 95%) solid;
+    border-radius: 50px;
+    bottom: 50px;
+    font-size: 0.85em;
+    font-family: 'Lexend Deca', sans-serif;
+    padding: 13px 36px;
     position: absolute;
     left: 50px;
-    bottom: 50px;
     text-decoration: none;
-    font-family: 'Lexend Deca', sans-serif;
-    background-color: hsl(0, 0%, 95%);
-    padding: 13px 36px;
-    border-radius: 50px;
-    font-size: 0.85em;
-    border: 2px  hsl(0, 0%, 95%) solid;
     
 }
 .container__section a:hover {

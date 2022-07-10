@@ -14,9 +14,10 @@ body {
 main {
     display: flex;
     align-items: center;
+    justify-content: center;
     margin: auto;
     width: 100vw;
-    max-width: 900px;
+    max-width: 650px;
     height: 97vh;
     
 }
