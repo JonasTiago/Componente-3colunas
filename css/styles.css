@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100;700&display=swap');
 
 *{
     margin: 0;
@@ -6,13 +8,41 @@
 
 body {
     font-size: 15px;
+    max-height: 100vh;
 }
 
 main {
     display: flex;
     align-items: center;
     margin: auto;
-    max-width: 950px;
+    width: 100vw;
+    max-width: 900px;
+    height: 97vh;
+    
 }
+
+footer {
+    background-color: #c0c0c0c0;
+    color: black;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+footer a{
+    color: rgba(0, 0, 0, 0.63);
+    text-decoration: none;
+    
+}
+
+footer a:hover{
+    background-color: rgba(0, 0, 0, 0.701);
+    color: rgba(17, 255, 0, 0.6);
+}
+
+/* @media (min-width: 375px) {
+    main{
+        flex-direction: ;
+    }   
+} */
 
 
