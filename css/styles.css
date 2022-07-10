@@ -6,23 +6,25 @@
     padding: 0;
 }
 
-body {
+body{
     font-size: 15px;
-    max-height: 100vh;
 }
 
-main {
+.container {
+    background-color: aqua;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: auto;
-    width: 100vw;
-    max-width: 650px;
-    height: 97vh;
-    
+    width: 64vw;
+    max-width: 920px;
+    min-width: 750px;
+    height: 67vh;
+    max-height: 430px;
+    min-height: 430px;
+    margin: 22vh auto 0 auto;
 }
 
-footer {
+ footer {
     position: fixed;
     bottom: 0px;
     width: 100%;
@@ -41,12 +43,13 @@ footer a{
 footer a:hover{
     background-color: rgba(0, 0, 0, 0.701);
     color: rgba(17, 255, 0, 0.6);
-}
+}  
 
-/* @media (min-width: 375px) {
+/* @media (max-width: 755px) {
     main{
-        flex-direction: ;
+        flex-direction: column;
+        height: none;
     }   
-} */
+}
 
 
