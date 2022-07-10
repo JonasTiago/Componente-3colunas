@@ -21,7 +21,6 @@
 .container__section p {
     display: inline-block;
     color: hsla(0, 0%, 100%, 0.75);
-    font-size: 1rem;
     font-family: 'Lexend Deca', sans-serif;
     font-weight: 400;
     line-height: 1.5em;
